@@ -47,16 +47,16 @@ echo -ne "
                     Enabling Login Display Manager
 -------------------------------------------------------------------------
 "
-systemctl enable sddm.service
+systemctl enable lightdm
 echo -ne "
 -------------------------------------------------------------------------
                     Setting up SDDM Theme
 -------------------------------------------------------------------------
 "
-cat <<EOF > /etc/sddm.conf
-[Theme]
-Current=Nordic
-EOF
+#cat <<EOF > /etc/sddm.conf
+#[Theme]
+#Current=Nordic
+#EOF
 
 echo -ne "
 -------------------------------------------------------------------------
