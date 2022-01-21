@@ -29,10 +29,6 @@ cd ~
 
 #yay -S --noconfirm --needed - < ~/ArchTitus/pkg-files/aur-pkgs.txt
 
-cp ~/ArchTitus/files/lightdm.conf /etc/lightdm/
-cp ~/ArchTitus/files/lightdm-webkit2-greeter.conf /etc/lightdm/
-cp -r ~/ArchTitus/files/litarvan2 /usr/share/lightdm-webkit/themes/
-
 export PATH=$PATH:~/.local/bin
 cp -r ~/ArchTitus/dotfiles/* ~/.config/
 sleep 1
