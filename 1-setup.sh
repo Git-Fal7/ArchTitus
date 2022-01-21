@@ -154,6 +154,8 @@ fi
 cp /root/ArchTitus/files/lightdm.conf /etc/lightdm/
 cp /root/ArchTitus/files/lightdm-webkit2-greeter.conf /etc/lightdm/
 cp -r /root/ArchTitus/files/litarvan2 /usr/share/lightdm-webkit/themes/
+git clone https://github.com/ubuntu-cinnamon-remix/yaru-cinnamon
+cp -r /root/yaru-cinnamon/usr/share/ /usr/
 
 
 echo -ne "
