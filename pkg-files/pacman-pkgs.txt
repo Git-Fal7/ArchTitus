@@ -44,3 +44,4 @@ xorg
 xorg-server
 xorg-xinit
 xorg-apps
+lightdm-webkit2-greeter
