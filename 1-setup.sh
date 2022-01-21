@@ -150,6 +150,12 @@ echo "password=${password,,}" >> ${HOME}/ArchTitus/setup.conf
 
     echo "nameofmachine=${nameofmachine,,}" >> ${HOME}/ArchTitus/setup.conf
 fi
+
+cp /root/ArchTitus/files/lightdm.conf /etc/lightdm/
+cp /root/ArchTitus/files/lightdm-webkit2-greeter.conf /etc/lightdm/
+cp -r /root/ArchTitus/files/litarvan2 /usr/share/lightdm-webkit/themes/
+
+
 echo -ne "
 -------------------------------------------------------------------------
                     Adding User
