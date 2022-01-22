@@ -31,6 +31,9 @@ cd ~
 
 export PATH=$PATH:~/.local/bin
 cp -r ~/ArchTitus/dotfiles/* ~/.config/
+mkdir ~/.cinnamon/
+cp -r ~/ArchTitus/dotcinnamon/* ~/.cinnamon/
+dconf load /org/cinnamon/ < ~/ArchTitus/files/conf
 sleep 1
 
 echo -ne "
