@@ -156,6 +156,7 @@ cp /root/ArchTitus/files/lightdm-webkit2-greeter.conf /etc/lightdm/
 cp -r /root/ArchTitus/files/lythium/ /usr/share/lightdm-webkit/themes/
 git clone https://github.com/ubuntu-cinnamon-remix/yaru-cinnamon
 cp -r /yaru-cinnamon/usr/share/* /usr/share/
+rm -rf /yaru-cinnamon/
 
 
 echo -ne "
